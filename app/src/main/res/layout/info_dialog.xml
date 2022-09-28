@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/_20sdp"
+    android:gravity="center_horizontal"
+    android:background="@drawable/back_style_result"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_50sdp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/montserratq"
+            android:text="@string/info"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_18sdp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/montserratq"
+        android:justificationMode="inter_word"
+        android:text="Ushbu ilovada matematika fanidan bilimingizni sinab ko'rishingiz mumkin. Bunda siz uchun uch xil toifa mavjud OSON, O'RTA, QIYIN. Har bir test 10 tadan guruhlashtirilib beriladi. Test oxirida natijalaringizni ko'rishingiz mumkin. Agarda natijangiz 60 % dan oshmasa o'ynayotagn vaqtingiz keyingi darajaga o'ta olmaysiz. Menudan esa istalgan darajani tanlab testni davom ettirishingiz mumkin. Yangi o'yin bo'limida siz testni eng quyi darajasidan boshlab davom etasiz. Natijalar bo'limida esa barcha olgan natijalaringiz aks etadi. \n\n Created by Shahrizod Qosimov \n is_unity"
+        android:textColor="@color/white"
+        android:layout_margin="@dimen/_18sdp"
+        android:textSize="@dimen/_12sdp"
+        android:textStyle="bold" />
+
+
+    <LinearLayout
+
+        android:id="@+id/ok"
+        android:layout_width="@dimen/_80sdp"
+        android:layout_height="@dimen/_40sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_marginBottom="@dimen/_18sdp"
+        android:background="@drawable/back_style_reuslt_button"
+        android:clickable="true"
+        android:gravity="center">
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="OK"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_11sdp" />
+    </LinearLayout>
+
+</LinearLayout>

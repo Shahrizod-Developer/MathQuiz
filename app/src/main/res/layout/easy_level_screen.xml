@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_game_2"
+    tools:context=".screen.EasyLevelScreen">
+
+
+    <TextView
+
+        android:id="@+id/degree"
+        android:layout_width="@dimen/_80sdp"
+        android:layout_height="@dimen/_30sdp"
+        android:layout_marginTop="@dimen/_6sdp"
+        android:background="@drawable/back_style_variants"
+        android:fontFamily="@font/montserrat"
+        android:gravity="center"
+        android:text="Easy"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_14sdp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0" />
+
+    <TextView
+
+        android:id="@+id/count"
+        android:layout_width="@dimen/_50sdp"
+        android:layout_height="@dimen/_30sdp"
+        android:layout_marginTop="@dimen/_6sdp"
+        android:layout_marginEnd="@dimen/_10sdp"
+        android:background="@drawable/back_style_variants"
+        android:fontFamily="@font/montserrat"
+        android:gravity="center"
+        android:text="8/10"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_12sdp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0" />
+
+
+    <TextView
+
+        android:id="@+id/question"
+        android:layout_width="@dimen/_258sdp"
+        android:layout_height="@dimen/_126sdp"
+        android:background="@drawable/back_style_question"
+        android:fontFamily="@font/montserrat"
+        android:gravity="center"
+        android:padding="@dimen/_10sdp"
+        android:text="Agar barcha x, y lar uchun
+x³+5x²y-axy²+3xy-bx²y+6xy²+dxy+y³=x³+y³ ayniyat bo'lsa,  a ni toping?"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_13sdp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.15" />
+
+    <LinearLayout
+
+        android:id="@+id/radioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="@dimen/_5sdp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.66">
+
+        <RadioButton
+
+            android:id="@+id/ans1"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_50sdp"
+            android:layout_marginStart="@dimen/_45sdp"
+            android:layout_marginTop="@dimen/_6sdp"
+            android:layout_marginEnd="@dimen/_45sdp"
+            android:background="@drawable/back_style_variants"
+            android:buttonTint="@color/black"
+            android:elevation="@dimen/_5sdp"
+            android:text="salom"
+            android:textColor="#05363C"
+            android:textSize="@dimen/_14sdp" />
+
+        <RadioButton
+
+            android:id="@+id/ans2"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_50sdp"
+            android:layout_marginStart="@dimen/_45sdp"
+            android:layout_marginTop="@dimen/_6sdp"
+            android:layout_marginEnd="@dimen/_45sdp"
+            android:background="@drawable/back_style_variants"
+            android:buttonTint="@color/black"
+            android:elevation="@dimen/_5sdp"
+            android:gravity="center_vertical"
+            android:textColor="#05363C"
+            android:textSize="@dimen/_14sdp" />
+
+        <RadioButton
+
+            android:id="@+id/ans3"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_50sdp"
+            android:layout_marginStart="@dimen/_45sdp"
+            android:layout_marginTop="@dimen/_6sdp"
+            android:layout_marginEnd="@dimen/_45sdp"
+            android:background="@drawable/back_style_variants"
+            android:buttonTint="@color/black"
+            android:elevation="@dimen/_5sdp"
+            android:gravity="center_vertical"
+            android:textColor="#05363C"
+            android:textSize="@dimen/_14sdp" />
+
+        <RadioButton
+
+            android:id="@+id/ans4"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_50sdp"
+            android:layout_marginStart="@dimen/_45sdp"
+            android:layout_marginTop="@dimen/_6sdp"
+            android:layout_marginEnd="@dimen/_45sdp"
+            android:layout_marginBottom="@dimen/_10sdp"
+            android:background="@drawable/back_style_variants"
+            android:buttonTint="@color/black"
+            android:elevation="@dimen/_5sdp"
+            android:gravity="center_vertical"
+            android:textColor="#05363C"
+            android:textSize="@dimen/_14sdp" />
+    </LinearLayout>
+
+    <androidx.appcompat.widget.AppCompatButton
+
+        android:id="@+id/next"
+        android:layout_width="@dimen/_90sdp"
+        android:layout_height="@dimen/_40sdp"
+        android:layout_margin="@dimen/_10sdp"
+        android:background="@drawable/back_style_next"
+        android:text="Keyingi"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_14sdp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/radioGroup" />
+
+
+    <LinearLayout
+
+        android:id="@+id/finish"
+        android:layout_width="@dimen/_40sdp"
+        android:layout_height="@dimen/_30sdp"
+        android:layout_margin="@dimen/_6sdp"
+        android:background="@drawable/back_style_back"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0">
+
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_baseline_arrow_back_24" />
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
