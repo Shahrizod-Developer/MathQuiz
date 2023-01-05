@@ -21,7 +21,6 @@ public class Database {
         return repository;
     }
 
-
     public ArrayList<Question> initQuestions() {
         questions = new ArrayList<>();
 
